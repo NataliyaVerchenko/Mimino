@@ -1,0 +1,92 @@
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+}
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-large {
+    width: 1060px;
+}
+header >.container{
+    display:flex;
+    align-items: center;
+}
+
+
+.banner-img{
+    width:100%;
+}
+.logo{}
+.logo >img{
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
+
+.navbar >li{
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+.list-social{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+
+.list-t ,.list-social ,.list-cards{
+	 margin: 0;padding: 0;
+	list-style: none;
+	display: flex;
+	}
+	.list-cards {
+    	 margin: 0;padding: 0;
+    	list-style: none;
+        margin: 0 -33px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+	.list-cards >li{
+	width:50%;
+	padding:0 33px;
+	}
+	.card-label{
+	margin: 10px;
+
+	}
+.card-label >a{
+	 text-decoration: none;
+	  color: gray;
+	  }
+
+.card-title{
+	 text-align:center;
+	 font-size:18px;
+
+	 }
+.block-newsletter{
+background: lightgrey;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 60px 0;
+text-align: center;
+}
