@@ -90,3 +90,16 @@ margin-bottom: 10px;
 padding: 60px 0;
 text-align: center;
 }
+
+.block-card ,.block-button{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.block-button{
+text-align: center;}
+.button{
+padding:10px;
+border:2px solid gray;
+ text-decoration: none;
+ color:black;
+ background:gray;}
