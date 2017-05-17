@@ -1,5 +1,5 @@
 body{
-    font-family: sans-serif;
+font-family: 'Playfair Display', serif;
     font-size: 14px;
     color: black;
 }
@@ -52,18 +52,28 @@ header >.container{
 }
 
 
-.list-t ,.list-social ,.list-cards{
-	 margin: 0;padding: 0;
+.list-t{
+	 margin: 0;
+	 padding: 0;
 	list-style: none;
 	display: flex;
+	flex-wrap: wrap;
 	}
-	.list-cards {
-    	 margin: 0;padding: 0;
+.list-cards {
+    	 margin: 0;
+    	 padding: 0;
     	list-style: none;
         margin: 0 -33px;
         display: flex;
         flex-wrap: wrap;
     }
+.list-social{
+    	 margin: 0;
+    	 padding: 0;
+    	 list-style: none;
+    	 display: flex;
+         flex-wrap: wrap;
+}
 
 	.list-cards >li{
 	width:50%;
@@ -84,22 +94,48 @@ header >.container{
 
 	 }
 .block-newsletter{
-background: lightgrey;
-margin-top: 10px;
-margin-bottom: 10px;
-padding: 60px 0;
-text-align: center;
+    background: lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 60px 0;
+    text-align: center;
 }
 
 .block-card ,.block-button{
-margin-top: 20px;
-margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .block-button{
-text-align: center;}
+    text-align: center;
+}
 .button{
-padding:10px;
-border:2px solid gray;
- text-decoration: none;
- color:black;
- background:gray;}
+    padding:10px;
+    border:2px solid gray;
+     text-decoration: none;
+     color:black;
+     background:gray;
+ }
+
+
+ .form-control{
+     border:none;
+     border-bottom:2px solid;
+     width:300px;
+     height:40px;
+     font-size:20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+ }
+.footer >.container{
+    display: flex;
+    flex-flow: column wrap;
+
+
+}
+.footer >.container >.list-t{
+
+justify-content: left;
+}
+.footer >.container >.list-social{
+justify-content: right;
+}
