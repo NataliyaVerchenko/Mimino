@@ -52,12 +52,37 @@ header >.container{
 }
 
 
-.list-t ,.list-social ,.list-cards{
-	 margin: 0;padding: 0;
+.list-cards{
+	margin: 0;
+    padding: 0;
 	list-style: none;
 	display: flex;
+    flex-wrap: wrap;
 	}
-	.list-cards {
+
+.list-t{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+.list-social{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+
+
+
+.list-cards {
     	 margin: 0;padding: 0;
     	list-style: none;
         margin: 0 -33px;
