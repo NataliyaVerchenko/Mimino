@@ -139,3 +139,16 @@ justify-content: left;
 .footer >.container >.list-social{
 justify-content: right;
 }
+img{
+border: 0 none;
+height: auto;
+max-width: 100%;
+vertical-align: middle;
+}
+.card-img img{
+width:100%;}
+
+.label-article{
+text-transform: capitalize;
+color: #adb3b6;
+font-family: 'Open Sans Condensed', sans-serif;}
