@@ -159,7 +159,9 @@ fill: red;
 .flower-green{
 fill: green;
 }
-.flower-beig:hover,.flower-red:hover,.flower-green:hover{
+.flower-beig:hover,
+.flower-red:hover,
+.flower-green:hover{
 fill: antiquewhite;
 transition: 10s;
 transform:translateX(-25px);
