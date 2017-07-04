@@ -142,3 +142,34 @@ footer >.container{
 padding-top: 10px;
 border-top: 2px solid;
 }
+
+/*svg*/
+svg >line:hover{stroke:#c5c115;}
+svg >polygon:hover{stroke:#008d46;}
+svg >g >path:hover{fill:#008d46;}
+svg >text:hover{fill:#008d46;}
+
+.flower-beig{
+fill: antiquewhite;
+
+}
+.flower-red{
+fill: red;
+}
+.flower-green{
+fill: green;
+}
+.flower-beig:hover,.flower-red:hover,.flower-green:hover{
+fill: antiquewhite;
+transition: 10s;
+transform:translateX(-25px);
+/*transform:rotate(180deg);*/
+/*transform: scale(1, 0.2);*/
+stroke: rgb(182, 101, 234);
+stroke-width:2;
+  -webkit-transform: translate(100px) rotate(20deg);
+  -webkit-transform-origin: 0 -250px;
+
+  transform: translate(100px) rotate(20deg);
+  transform-origin: 0 -250px;
+}
